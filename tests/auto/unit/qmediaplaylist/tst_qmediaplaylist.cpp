@@ -452,6 +452,7 @@ void tst_QMediaPlaylist::removeMedia()
 
 void tst_QMediaPlaylist::saveAndLoad()
 {
+    QSKIP("QTBUG-23826: test is flaky and has been like that for a while");
     QMediaPlaylist playlist;
     playlist.addMedia(content1);
     playlist.addMedia(content2);
@@ -1106,6 +1107,7 @@ void tst_QMediaPlaylist::testCurrentMediaChanged_signal()
 
 void tst_QMediaPlaylist::testLoaded_signal()
 {
+    QSKIP("QTBUG-35420 test fails at random");
     //create an instance of QMediaPlaylist class.
     QMediaPlaylist playlist;
     playlist.addMedia(content1); //set the media to playlist

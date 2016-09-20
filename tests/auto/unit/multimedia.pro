@@ -14,13 +14,13 @@ SUBDIRS += \
     qmediacontent \
     qmediaobject \
     qmediaplayer \
-    qmediaplaylist \
+#    qmediaplaylist \
     qmediaplaylistnavigator \
     qmediapluginloader \
     qmediarecorder \
     qmediaresource \
     qmediaservice \
-    qmediaserviceprovider \
+#    qmediaserviceprovider \
     qmediatimerange \
     qmetadatareadercontrol \
     qmetadatawritercontrol \

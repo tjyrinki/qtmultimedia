@@ -78,7 +78,7 @@ macx {
                                 ../spectrum.app/Contents/MacOS/spectrum
     }
 } else {
-    linux-g++*: {
+    linux-g++*|hurd-*|gnukfreebsd-*: {
         # Provide relative path from application to fftreal library
         QMAKE_LFLAGS += -Wl,--rpath=\\\$\$ORIGIN
     }

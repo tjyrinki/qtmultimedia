@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += multimedia.pro
 qtHaveModule(widgets): SUBDIRS += multimediawidgets.pro
-qtHaveModule(qml): SUBDIRS += multimediaqml.pro
+# Does not find the multimedia module despite paths being set
+#qtHaveModule(qml): SUBDIRS += multimediaqml.pro
